@@ -41,7 +41,11 @@ class HomeController extends Controller
    }
 
    public  function login_home(){
+<<<<<<< HEAD
     $products= Product::all();
+=======
+    $products= Product::all();                                                 
+>>>>>>> 99ac388 (Update code with latest changes)
     if(Auth::id()){
       $user = Auth::user();
     $userId =  $user->id;

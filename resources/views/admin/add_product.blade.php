@@ -36,7 +36,11 @@
                           <div class="col-lg-4">
                             <div class="form-group">
                               <label class="form-control-label" style="color: white">Description <span class="tx-danger">*</span></label>
+<<<<<<< HEAD
                               <input class="form-control @error('product_code')is-invalid @enderror" type="text" name="description" value="{{ old('product_code') }}" placeholder="Product Code" style="color: white">
+=======
+                              <input class="form-control @error('product_code')is-invalid @enderror" type="text" name="description" value="{{ old('product_code') }}" placeholder="Product discription" style="color: white">
+>>>>>>> 99ac388 (Update code with latest changes)
                               @error('product_code')
                               <span class="text-danger"></span> 
                              @enderror

@@ -34,5 +34,16 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+<<<<<<< HEAD
 
 ];
+=======
+   'stripe' => [
+    'key' => env('STRIPE_KEY'),
+    'secret' => env('STRIPE_SECRET'),
+ ],
+
+];
+
+
+>>>>>>> 99ac388 (Update code with latest changes)

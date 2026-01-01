@@ -31,7 +31,11 @@
                                         <label for="name" style="color: white">Category Name</label>
                                        
                                         <input type="text" name="category" id="name" class="form-control @error('category_name')is-invalid
+<<<<<<< HEAD
                                          @enderror" placeholder="Category Name" style="background-color:white; text-color:black" value="{{ $data->category_name }}">
+=======
+                                         @enderror" placeholder="Category Name" style="background-color: white; color: black" value="{{ $data->category_name }}">
+>>>>>>> 99ac388 (Update code with latest changes)
             
                                         @error('category_name')
                                            <span class="text-danger"></span> 
