@@ -29,6 +29,7 @@ This project is a web application developed using Laravel and modern web technol
 - Composer
 - Node.js and npm
 - A compatible database, if required
+- postman
 
 ## Installation
 
